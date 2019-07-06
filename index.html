@@ -523,7 +523,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                <script src="js/email.js"></script>
                                 <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+
                                     <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
                                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                                         <div class="row">
@@ -545,7 +547,7 @@
                                             
                                             <!-- Subject Button -->
                                             <div class="btn-form col-sm-12">
-                                                <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
+                                                <button type="submit" class="btn btn-fill btn-block" id="form-submit" onclick="submit_by_tag()">Send Message</button>
                                             </div>
                                         </div>
                                     </form>
@@ -584,6 +586,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
     <!-- jQuery -->
+   
     <script src="assets/plugins/js/jquery.min.js"></script>
     <!-- popper -->
     <script src="assets/plugins/js/popper.min.js"></script>
