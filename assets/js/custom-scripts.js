@@ -341,7 +341,8 @@
             submitForm();
           }
        });
-    
+      
+       
         function submitForm(){
           var name = $("#name").val();
           var email = $("#email").val();

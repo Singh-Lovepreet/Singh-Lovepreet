@@ -1,6 +1,6 @@
 function submit_by_id() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
+    // var name = document.getElementById("name").value;
+    // var email = document.getElementById("email").value;
     
     document.getElementById("form_id").submit(); //form submission
     alert(" Name : " + name + " n Email : " + email + " n Form Id : " + document.getElementById("form_id").getAttribute("id") + "nn Form Submitted Successfully......");
